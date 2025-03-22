@@ -1,0 +1,662 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.3rem;
+  background-color: rgb(22, 7, 36);
+}
+
+.navbar h2 {
+  text-align: center;
+  justify-content: center;
+  color: #ffca70;
+}
+/* .navbar{
+  line-height: 5rem;
+  text-align: center;
+  background-color: rgb(22, 7, 36);
+  background-size: 70%;
+} */
+/* .navbar h2{
+    line-height: 5rem;
+    text-align: center;
+
+} */
+.left h1 {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+#home {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 24%;
+}
+
+.leftHome {
+  width: 500px;
+}
+
+.leftHome h3 {
+  color: #de2639;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+}
+
+.leftHome h2 {
+  color: rgb(26, 25, 25);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  margin-bottom: 1rem;
+  color: rgb(106, 102, 102);
+}
+
+.rightHome {
+  width: 50%;
+  margin: 1rem;
+  position: relative;
+}
+
+.btn {
+  cursor: pointer;
+  color: #de2639;
+  font-weight: bold;
+  border-radius: 3rem;
+  padding: 0.7rem 1.5rem;
+  text-transform: uppercase;
+  border: 1.5px solid #de2639;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 810px) {
+  #home {
+    flex-direction: column-reverse;
+  }
+
+  .rightHome {
+    width: 90%;
+  }
+
+  .leftHome {
+    margin: 0;
+    width: 100%;
+  }
+
+  .leftHome h3 {
+    font-size: 1rem;
+  }
+
+  .leftHome h2 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+#aboutUs {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 87px;
+}
+
+#aboutUs img {
+  width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.content h2 {
+  font-size: 50px;
+  color: #ffca70;
+  text-align: center;
+}
+
+.content h4 {
+  font-size: 27px;
+  color: black;
+  margin: 10px 0;
+}
+
+.description {
+  color: black;
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+}
+
+.btn {
+  font-weight: bold;
+  border: 2px solid #ffca70;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.4s;
+  background-color: #ffca70;
+}
+
+.btn:hover {
+  border: 2px solid #ffca70;
+  background: transparent;
+  color: #ffca70;
+}
+
+@media screen and (max-width: 790px) {
+  #aboutUs img {
+    width: 80%;
+  }
+
+  #aboutUs {
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+}
+
+.text-center {
+  margin-bottom: 40px;
+  font-size: 1.4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  text-align: center;
+  color: black;
+}
+.container h1 {
+  color: black;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container p {
+  color: black;
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Tujuan {
+  margin-bottom: 44px;
+}
+
+/* ======== Styling Dashboard ======== */
+.dashboard {
+  padding: 10px;
+}
+
+.dashboard h2 {
+  color: black;
+  font-size: 2.4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.heading {
+  margin: 10px 0;
+}
+
+.color-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  height: 390px;
+  flex-direction: column;
+  width: 320px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px 5px;
+  color: black;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 90px;
+}
+
+.box i {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.box p {
+  line-height: 30px;
+  color: black;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.skyblue {
+  background-color: rgb(135, 220, 253);
+}
+
+.yellow {
+  background-color: rgb(231, 251, 151);
+}
+
+.purple {
+  background-color: rgb(243, 178, 255);
+}
+
+.red {
+  background-color: rgb(255, 178, 178);
+}
+
+#about1 {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 24%;
+}
+
+.leftHome {
+  width: 500px;
+}
+
+.leftHome h3 {
+  color: #de2639;
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+}
+
+.leftHome h2 {
+  color: rgb(26, 25, 25);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.rightHome {
+  width: 50%;
+  margin: 1rem;
+  position: relative;
+}
+
+.btn {
+  cursor: pointer;
+  color: #de2639;
+  font-weight: bold;
+  border-radius: 3rem;
+  padding: 0.7rem 1.5rem;
+  text-transform: uppercase;
+  border: 1.5px solid #de2639;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 810px) {
+  #home {
+    flex-direction: column-reverse;
+  }
+
+  .rightHome {
+    width: 90%;
+  }
+
+  .leftHome {
+    margin: 0;
+    width: 100%;
+  }
+
+  .leftHome h3 {
+    font-size: 1rem;
+  }
+
+  .leftHome h2 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.container div {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --primaryTextColor: #232e35; /* Untuk title atau judul */
+  --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
+
+  --borderColor: #f1f1f1;
+  --lineColor: #d9d9d9; /* untuk line di pre-title */
+
+  --primaryBackgroundColor: #fff;
+  --secondaryBackgroundColor: #fbfbfb;
+  --thirdBackgroundColor: #f5f3fe;
+
+  --primaryIconColor: #7e74f1;
+  --primaryIconColorHover: #5d51e8;
+
+  --sectionPadding: 6rem 0;
+
+  --itemBorderRadius: 0.7rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--primaryTextColor);
+}
+
+p {
+  font-size: 1rem; /* 16 px */
+  line-height: 1.9rem; /*30.4 px */
+}
+
+p,
+span,
+label,
+input,
+textarea,
+li {
+  color: var(--secondaryTextColor);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* End Preparation */
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-container {
+    width: 90%;
+  }
+}
+
+/* Buttons */
+.btn {
+  padding: 1rem 1.5rem;
+  background: white;
+  border: 1.5px solid var(--borderColor);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+/* Titles */
+.section-title {
+  margin: 1rem 0 4rem;
+  font-size: 2rem;
+}
+
+.pre-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--secondaryTextColor);
+  position: relative;
+  padding-left: 40px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.pre-title::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: var(--lineColor);
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 50%;
+}
+
+/* Layouts */
+.grid-3 {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; use this first, use code below when its time for explaining responsive design part */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+}
+
+/* --- Logo and Navigation Menu --- */
+
+/* Skills and Education */
+#skills {
+  padding: var(--sectionPadding);
+  background: var(--secondaryBackgroundColor);
+}
+
+.skills-grid {
+  display: grid;
+  /* grid-template-columns: 40% 60%; */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.education {
+  display: flex;
+  gap: 1rem;
+}
+
+.education .line {
+  padding: 0 0.7rem;
+}
+
+.education .line div {
+  width: 2px;
+  height: 100%;
+  background: var(--borderColor);
+  position: relative;
+}
+
+.education-title{
+    color: #000000;
+    font-size: 1.6rem;
+}
+
+.education-info p {
+  margin: 0.6rem 0 1.4rem;
+  color: black;
+}
+
+.education-years {
+  margin-bottom: 3rem;
+  color: black;
+}
+
+/* The dot on the line */
+.education .line div:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: var(--borderColor);
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+}
+
+.education-info p h4 {
+  color: black;
+}
+
+/* Right side of Skills */
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1.5rem;
+}
+
+.skills-right ul {
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+
+.section-title {
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+
+  .grid-3 {
+    gap: 1rem;
+  }
+
+  .skills-right ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  :root {
+    --sectionPadding: 4rem 0;
+  }
+
+  /* Titles */
+  .section-title {
+    font-size: 1.6rem;
+    margin: 0.6rem 0 2.5rem;
+  }
+
+  .pre-title {
+    font-size: 0.8rem;
+  }
+
+  /* Hero Section */
+  #hero {
+    grid-template-columns: 1fr;
+    height: fit-content;
+  }
+
+  .hero-right {
+    order: -1;
+  }
+
+  .hero-right img {
+    width: 70%;
+  }
+
+  .hero-left {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+  .hero-left .pre-title {
+    margin: 0 auto;
+  }
+
+  .hero-name {
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Skills Section */
+  .skills-grid {
+    gap: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 2rem 0;
+  }
+}
+
+/* Mobile Size */
+@media screen and (max-width: 640px) {
+  /* Titles */
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .pre-title {
+    font-size: 0.7rem;
+  }
+}
+
+.tokoh{
+  margin-bottom: 76px;
+}
+.tokoh h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.9rem;
+    text-align: center;
+    color: black;
+    margin-bottom:77px;
+}
+
+.btn{
+  display: flex;
+  gap: 20px;
+}
+
+/* .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%; 
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.btn a{
+  margin-top: auto; 
+} */
